@@ -8,7 +8,6 @@ struct student {
         int midterm;
 
     };
-
 int main(){
     struct student *ptr;
     ptr=(struct student*)malloc(1*sizeof(struct student));
