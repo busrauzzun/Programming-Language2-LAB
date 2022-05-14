@@ -21,8 +21,7 @@ int main(){
         scanf("%d",&students[i].midterm);  
     }
    
-   
-    for(i=0;i<3;i++){
+   for(i=0;i<3;i++){
         printf("%s\t%s\t%d\t%d",students[i].name,students[i].surname,students[i].number,students[i].midterm);
         printf("\n");
     }
