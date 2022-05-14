@@ -16,7 +16,6 @@ int main(){
         }
         A[index]=A[i];
         A[i]=enkucuk;
-   
     }
 
     for(i=0;i<N;i++){
