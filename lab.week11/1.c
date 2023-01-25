@@ -45,8 +45,7 @@ void traverselist(node* head){
         printf("%4d",k->number);
         k = k->next;
     }    
-      
-}
+ }
 int main(){
     int num;
     node *head,*p; 
